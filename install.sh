@@ -1,10 +1,10 @@
+# tmux
+cp .tmux.conf ~/
+touch /usr/local/etc/tmux.conf
 
-# Install Vagrant.vim
-mkdir -p ~/.vim/autoload ~/.vim/bundle && \
-curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+# vim sensible rc
+cp .vimrc ~/
 
-# Install vim sensible rc
-# source: https://github.com/tpope/vim-sensible
-cd ~/.vim/bundle
-git clone git://github.com/tpope/vim-sensible.git
+# vundle
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
