@@ -16,3 +16,6 @@ Plugin 'tpope/vim-markdown'
 
 " Read .md files as .markdown for syntax highlighting
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+
+" Line Numbers
+set number
