@@ -19,3 +19,6 @@ autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 
 " Line Numbers
 set number
+
+" Set yank to clipboard
+set clipboard=unnamed
