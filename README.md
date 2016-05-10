@@ -1,3 +1,9 @@
+install macvim
+```
+brew install macvim --with-override-system-vim
+brew linkapps macvim
+```
+
 tmux
 ```
 cp .tmux.conf ~/
